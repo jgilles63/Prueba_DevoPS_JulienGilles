@@ -1,0 +1,54 @@
+/*MyCSS*/
+/* Generic*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    font-size: 15px;
+}
+
+h1{
+    font-size: 45px;
+    color: #444444
+}
+
+/*Header Part*/
+header{
+    padding: 20px 100px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+header h1{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(78, 228, 255);
+    border-bottom: 1px solid rgb(36, 129, 250);
+    padding-bottom: 20px;
+    -webkit-text-stroke: 1px rgb(36, 129, 250);
+}
+
+/* Body part*/
+#container{
+    margin-top: 50px;
+}
+
+.highcharts-figure, .highcharts-data-table table {
+    min-width: 360px; 
+    max-width: 1000px;
+    margin: 1em auto;
+  }
+
+#Piecontainer{
+    margin-top: 50px;
+}
+
+.highcharts-Piefigure, .highcharts-data-table table {
+    min-width: 320px; 
+    max-width: 660px;
+    margin: 1em auto;
+}
+  
